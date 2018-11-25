@@ -1,0 +1,104 @@
+/* Here goes your styling */
+body {
+  background-color: #F4F3F4;
+}
+
+header {
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444 !important;
+}
+
+.dark-text-button {
+  color: #444 !important;
+}
+
+.MuiDialog-paperWidthSm-95 {
+  min-width: 70%;
+}
+
+.main-wrapper {
+  padding: 0 2em;
+}
+
+@media (max-width: 540px) {
+  .nav-bar-menu-item {
+    display: none !important;
+  }
+
+  .desktop-delete-button {
+    display: none !important;
+  }
+
+  .mobile-table-cell {
+    display: none !important;
+  }
+
+  .jss1134 {
+    width: 90% !important;
+    max-width: 100% !important;
+  }
+
+  .voting-panel {
+    min-width: 90% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  .MuiDialog-paper-117 {
+    margin: 10px !important;
+  }
+
+  .main-wrapper {
+    padding: 0 10px;
+  }
+
+  .voting-content {
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 541px) {
+  .mobile-delete-button {
+    display: none !important;
+  }
+
+  .mobile-menu-icon {
+    display: none !important;
+  }
+}
+
+.MuiDialog-paperWidthSm-126 {
+  max-width: 100% !important;
+  min-width: 80%;
+}
+
+.underline {
+  display: inline-block;
+  line-height: 2.1;
+  border-bottom: 1px solid #444;
+  border-color: #ff017b;
+  color: #ff017b;
+}
+
+.voting-panel {
+  min-width: 80% !important!
+}
+
+circle {
+  color: #FF007B !important;
+}
+
+.stepper-label > span > span > svg > path {
+  color: #FF007B !important;
+}
+
+.stepper-label > span > span > svg > text {
+  fill: #FFF !important;
+}
+
+.danger > p {
+  color: #FF007B;
+}
